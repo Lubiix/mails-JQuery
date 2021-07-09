@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F6FA;
+}
+.bloc-message, #compteur, .addMessage {
+    display: flex;
+    align-items: center;
+    width: 50vh;
+    background-color: #FFFFFF;
+    border: 1px solid #DADADA;
+    width: 80%;
+    padding: 20px;
+}
+
+
+.trash {
+    width: 15px;
+}
+
+.avatar {
+    width: 60px;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.text {
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-grow: 4;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+.addMessage {
+    display: flex;
+    justify-content: space-around;
+    width: 50vh;
+    background-color: #FFFFFF;
+    border: 1px solid #DADADA;
+    width: 80%;
+}
+
+input {
+    width: 90%;
+}
+
+button {
+    color:#9DCFEA;
+    border: 2px solid #9DCFEA;
+    background-color: white;
+    border-radius: 20%;
+    height: 20%;
+    padding: 0px;
+}
+
+#userText {
+    color: grey;
+}
