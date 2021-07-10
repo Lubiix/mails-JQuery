@@ -4,7 +4,17 @@ body {
     flex-direction: column;
     background-color: #F5F6FA;
 }
-.bloc-message, #compteur, .addMessage {
+
+.hautDePage {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #DADADA;
+    width: 80%;
+    padding: 20px;
+}
+
+.bloc-message, .addMessage {
     display: flex;
     align-items: center;
     width: 50vh;
